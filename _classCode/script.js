@@ -1,4 +1,6 @@
-console.log('WIP');
+(function () {
+
+
 
 
 let newLink = document.createElement('a');
@@ -32,6 +34,23 @@ firstParagraph.appendChild(newLink);
 
 
 // 4. hide all but first paragraph
-for (let i = 0; i < allParagraphs.length; i++) {
-    console.log(i);
+for (let i = 1; i < allParagraphs.length; i++) {
+    allParagraphs[1].style.display = 'none';
 }
+
+
+newLink.addEventListener( type, 'click' , listener, toggleCopy);
+
+function toggleCopy(e) {
+
+    let allParagraphs = document.getElementsByTagName( qualifiedName, 'p');
+
+    for (let i = 1; i < allParagraphs.length; i++) {
+        allParagraphs[1].style.display =  'block';
+    }
+
+    this.remove();
+
+    e.preventDefault();
+}
+})
