@@ -5,5 +5,6 @@
         "/Users/skylegrand/Library/Application Support/Code/User/globalStorage/joedevivo.vscode-circuitpython/bundle/20210318/adafruit-circuitpython-bundle-py-20210321/lib"
     ],
     "circuitpython.board.vid": "0x239A",
-    "circuitpython.board.pid": "0x8019"
+    "circuitpython.board.pid": "0x8019",
+    "liveServer.settings.port": 5501
 }
